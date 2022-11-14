@@ -17,7 +17,7 @@ border-radius:10px;
 @media (max-width: 800px) {
     width: 95%;
     padding: 10px 10px;
-    transform: translate(-50%, -65%);
+    transform: translate(-50%, -60%);
     }
 
 `
