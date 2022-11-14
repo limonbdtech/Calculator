@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    background-color: white;
+}
+
+body{
+background-color: white;
+}
+button{
+border-radius: 5px;
+color:white;
+background-color: gray;
+font-size: 30px;
+cursor: pointer;
+
+}
+button:hover{
+    background-color: white;
+    color: gray;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.sum{
+    grid-column: 4/5;
+    grid-row:4/6 ;
+    background-color: gray;
+}
+
+button:nth-child(1){
+   background-color: aqua;
+   color: white;
+   
+}
+button:nth-child(19){
+    background-color: orange;
+}
+
+button:nth-child(1):hover,
+button:nth-child(19):hover{
+    background-color: wheat;
+    color: gray;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+button:active{
+    color: white;
+    background-color: transparent;
+}
+
+button:nth-child(1):active{
+    background-color: transparent;
+}
+
+button:nth-child(19):active{
+    background-color: gray;
+    color: white;
+}
+h1{
+    color: white;
+}
