@@ -37,7 +37,7 @@ const Input = ({getdata}) => {
         <InputStyle>
         <button id="ac" onClick={onClear} > AC</button>
         <button id="ce" onClick={backspace} >CE</button >
-        <button name="%" onClick={onhandle}>%</button >
+        <button name="**" onClick={onhandle}>^</button >
         <button name="/" onClick={onhandle}>/</button >
         <button name='7' onClick={onhandle}>7</button >
         <button name="8 "onClick={onhandle}>8</button >
